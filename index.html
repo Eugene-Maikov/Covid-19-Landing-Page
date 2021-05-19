@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans:400,600,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Landing Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!------------ Header ----------------------
+    -------------------------------------------->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <div class="header__logo__image"><img src="images\Logo.svg" alt=""></div>
+                    <div class="header__logo__text">Covid - 19</div>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Обзор</a>
+                    <a class="nav__link" href="#">Профилактика </a>
+                    <a class="nav__link" href="#">Симптомы </a>
+                    <a class="nav__link" href="#">Заражения</a>
+                    <a class="btn" href="#">Контакт</a>
+                </nav>
+                <div class="menu__burger" id="burger">
+                    <img class="menu__burger-icon" src="images/menu.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="window__menu" id="window-menu">
+            <div class="window__menu-inner">
+                <a class="modal__close" href="#" type="button" data-close>
+                    <img class="close__menu-btn" src="images/menu-white.svg" alt="">
+                </a>
+                <ul class="window__menu-nav">
+                    <li class="window__menu-list">
+                        <a class="window__menu-link" href="#">Обзор</a>
+                    </li>
+                    <li class="window__menu-list">
+                        <a class="window__menu-link" href="#">Профилактика</a>
+                    </li>
+                    <li class="window__menu-list">
+                        <a class="window__menu-link" href="#">Симптомы</a>
+                    </li>
+                    <li class="window__menu-list">
+                        <a class="window__menu-link" href="#">Заражения</a>
+                    </li>
+                    <button class="btn-menu_close">Конткты</button>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!------------ Intro ----------------------
+    -------------------------------------------->
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__item intro__item-content">
+                    <h2 class="intro__suptitle">COVID-19 Тревога</h2>
+                    <h1 class="intro__title">Оставайтесь дома в карантине, чтобы остановить короннавирус</h1>
+                    <p class="intro__text">Не существует специального лекарства для профилактики или лечения
+                        коронавирусной инфекции (COVID-19). Люди могут нуждаться в поддерживающем уходе.</p>
+                    <a class="btn__red" href="#">Давайте поможем</a>
+                </div>
+                <div class="intro__item">
+                    <img class="intro__image" src="images\Illustration 02.svg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div> <!-- /Intro -->
+
+
+    <!------------ WhatIsIt ----------------------
+    -------------------------------------------->
+    <div class="whatisit">
+        <div class="container">
+            <div class="whatisit__inner">
+                <div class="whatisit__item whatisit__item-img">
+                    <img class="whatisit__img" src="images\Group 154042.svg" alt="">
+                </div>
+                <div class="whatisit__item whatisit__item-content">
+                    <h2 class="whatisit__suptitle">Что Такое Covid-19</h2>
+                    <h1 class="whatisit__title">Коронавирус</h1>
+                    <p class="whatisit__text">Коронные вирусы - это разновидность вирусов. Есть много различных видов, и
+                        некоторые из них вызывают болезни. Недавно выявленный тип вызвал недавнюю вспышку респираторного
+                        заболевания, которое теперь называется COVID-19.Лорен Зауэр, M. S., директор по операциям с
+                        управлением Джонса Хопкинса по обеспечению готовности к критическим событиям и реагированию на
+                        них</p>
+                    <a class="btn__pink" href="#">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------ Covid-19 ----------------------
+    -------------------------------------------->
+    <div class="covid">
+        <div class="container">
+            <div class="covid__inner">
+                <h2 class="covid__suptitle">Covid-19</h2>
+                <h1 class="covid__title">Инфекционное заболевание</h1>
+                <p class="covid__text">Коронавирусы - это разновидность вирусов. Есть много различных видов, и некоторые
+                    из них вызывают болезни. Недавно определили типа</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="container">
+            <div class="card__row">
+                <div class="card__inner">
+                    <div class="card__item">
+                        <img class="card__img" src="images\cards\1.svg" alt="">
+                        <h2 class="card__title">Воздушная передача</h2>
+                        <div class="card__text">При воздушно-капельном пути передачи возбудитель поступает в воздушную
+                            среду при кашле, чихании и т. п</div>
+                    </div>
+                </div>
+                <div class="card__inner">
+                    <div class="card__item">
+                        <img class="card__img" src="images\cards\4.svg" alt="">
+                        <h2 class="card__title">Человеческий контакт</h2>
+                        <div class="card__text">Заражение происходит преимущественно через грязные руки</div>
+                    </div>
+                </div>
+                <div class="card__inner">
+                    <div class="card__item">
+                        <img class="card__img" src="images\cards\3.svg" alt="">
+                        <h2 class="card__title">Контакт с объектами</h2>
+                        <div class="card__text">Пердача инфекции здоровому человеку через предмет, который трогал
+                            инфицированный</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="simptomps">
+        <div class="container">
+            <div class="covid__inner">
+                <h2 class="covid__suptitle">Covid-19</h2>
+                <h1 class="covid__title">Симптомы</h1>
+                <p class="covid__text">Коронавирусы - это разновидность вирусов. Есть много различных видов. Недавно
+                    выявленный тип вызвал недавнюю вспышку респираторных заболеваний</p>
+            </div>
+            <div class="simptomps__img">
+                <div class="col1">
+                    <div class="col col__hever">Лихорадка</div>
+                    <div class="col col_pain">Боль в горле</div>
+                    <div class="col col__dypsnoea">Диарея</div>
+                </div>
+                <div class="col2">
+                    <div class="col col__headache">Головная боль</div>
+                    <div class="col col__reny">Заложенность</div>
+                    <div class="col col__shaking">Озноб</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wedo">
+        <div class="container">
+            <div class="covid__inner">
+                <h2 class="covid__suptitle">Covid-19</h2>
+                <h1 class="covid__title">Что же нам делать</h1>
+                <p class="covid__text">Коронавирусы - это разновидность вирусов. Есть много различных видов. Недавно
+                    выявленный тип вызвал недавнюю вспышку респираторных заболеваний</p>
+            </div>
+            <div class="wedo__item">
+                <div class="wedo__inner">
+                    <div class="number__title">
+                        <div class="number">01</div>
+                        <div class="title">Носить маску</div>
+                    </div>
+                    <div class="wedo__text">Медицинская маска (хирургическая маска) — одноразовое медицинское изделие,
+                        закрывающее рот и нос носителя, и обеспечивающее барьер для прямой передачи инфекционных частиц
+                        от носителя маски к другим людям.</div>
+                </div>
+                <div class="wedo__inner">
+                    <img class="wedo__img" src="images\wedo\1.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="wedo__item wedo__item-dop">
+                <div class="wedo__inner__180">
+                    <img class="wedo__img__180" src="images\wedo\2.svg" alt="">
+                </div>
+                <div class="wedo__inner__180">
+                    <div class="number__title__180">
+                        <div class="number__180">02</div>
+                        <div class="title__180">Мыть руки</div>
+                    </div>
+                    <div class="wedo__text__180">Мытьё рук — гигиеническая процедура по очистке кистей рук с помощью
+                        воды или, реже, другой жидкости, часто с использованием мыла или иных подобных дезинфицирующих
+                        средств </div>
+                </div>
+            </div>
+
+
+            <div class="wedo__item">
+                <div class="wedo__inner">
+                    <div class="number__title">
+                        <div class="number">03</div>
+                        <div class="title">Носовой платок</div>
+                    </div>
+                    <div class="wedo__text">Носовой платок — кусок ткани или бумаги для чистки носа. Кроме этого носовой
+                        платок может служить для чистки вообще, может быть предметом моды или показывать принадлежность
+                        носителя к определённой группировке.</div>
+                </div>
+                <div class="wedo__inner">
+                    <img class="wedo__img" src="images\wedo\3.svg" alt="">
+                </div>
+            </div>
+
+
+            <div class="wedo__item wedo__item-dop">
+                <div class="wedo__inner__180">
+                    <img class="wedo__img__180" src="images\wedo\4.svg" alt="">
+                </div>
+                <div class="wedo__inner__180 wedo__inner-cont">
+                    <div class="number__title__180">
+                        <div class="number__180">04</div>
+                        <div class="title__180">Избегать контакта</div>
+                    </div>
+                    <div class="wedo__text__180">Заражение вирусом происходит через предметы, которые загрязнены
+                        мокротой инфицированного COVID-19. Это могут быть кнопки в лифте, дверные ручки, поручни в
+                        транспорте, мобильный телефон, деньги.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="maps">
+        <div class="container">
+            <div class="map">
+                <iframe src="https://yandex.ru/maps/covid19?embed=covid-map" width="100%" height="400" frameborder="1"
+                    allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__title">У вас есть вопрос в виду?
+                    Позвольте нам помочь вам</div>
+                <div class="header__address">
+                    <input class="header__input" type="search" placeholder="eugene-maikov2000@yandex.ru">
+                    <a class="btn__red ml0" type="submit">Отправить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <div class="footer__logo__image"><img src="images\Logo.svg" alt=""></div>
+                    <div class="footer__logo__text">Covid - 19</div>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Обзор</a>
+                    <a class="nav__link" href="#">Профилактика </a>
+                    <a class="nav__link" href="#">Симптомы </a>
+                    <a class="nav__link" href="#">Заражения</a>
+                </nav>
+                <div class="footer__icon">
+                    <a class="footer__inner__icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="footer__inner__icon" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="footer__inner__icon" href="#"><i class="fab fa-vk"></i></a>
+                    <a class="footer__inner__icon" href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rights">
+        <span class="rights__text">2020 @ Все права защищены компанией pixelspark.co</span>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
